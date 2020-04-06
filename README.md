@@ -20,4 +20,5 @@
 | 403 | Forbidden: bot is not a member of the channel chat |  | unknown |
 | 403 | Forbidden: bot was blocked by the user |  | unknown |
 | 403 | Forbidden: bot was kicked from the group chat |  | unknown |
+| 403 | Forbidden: bot can't initiate conversation with a user | The user needs to start the bot before you can send them a message | sendMessage |
 | 429 | Too Many Requests: retry after \d+ |  | unknown |

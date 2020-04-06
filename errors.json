@@ -112,5 +112,13 @@
         "api_description": "Too Many Requests: retry after \\d+",
         "description": "",
         "methods": "unknown"
+    },
+    {
+        "error_code": "403",
+        "api_description": "Forbidden: bot can't initiate conversation with a user",
+        "description": "The user needs to start the bot before you can send them a message",
+        "methods": [
+            "sendMessage"
+        ]
     }
 ]

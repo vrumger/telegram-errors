@@ -57,7 +57,7 @@
         "error_code": 401,
         "api_description": "Unauthorized",
         "description": "The bot token is incorrect",
-        "methods": "unknown"
+        "methods": "all"
     },
     {
         "error_code": 403,

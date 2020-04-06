@@ -11,7 +11,7 @@
 | 400 | Bad Request: CHAT_WRITE_FORBIDDEN |  | unknown |
 | 400 | Bad Request: group chat was upgraded to a supergroup chat |  | unknown |
 | 400 | Bad Request: chat not found |  | unknown |
-| 401 | Unauthorized | The bot token is incorrect | unknown |
+| 401 | Unauthorized | The bot token is incorrect | all |
 | 403 | Forbidden: bot was blocked by the user | Bot was blocked by the user | unknown |
 | 403 | Forbidden: user is deactivated | The specified user was deleted | unknown |
 | 403 | Forbidden: bot was kicked from the supergroup chat |  | unknown |

@@ -3,55 +3,73 @@
         "error_code": 400,
         "api_description": "Bad Request: message can't be deleted",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "deleteMessage"
+        ]
     },
     {
         "error_code": 400,
         "api_description": "Bad Request: not enough rights to export chat invite link",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "exportChatInviteLink"
+        ]
     },
     {
         "error_code": 400,
         "api_description": "Bad Request: have no rights to send a message",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage"
+        ]
     },
     {
         "error_code": 400,
         "api_description": "Bad Request: message to delete not found",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "deleteMessage"
+        ]
     },
     {
         "error_code": 400,
         "api_description": "Bad Request: CHANNEL_PRIVATE",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "getChatAdministrators"
+        ]
     },
     {
         "error_code": 400,
         "api_description": "Bad Request: reply message not found",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage"
+        ]
     },
     {
         "error_code": 400,
         "api_description": "Bad Request: CHAT_WRITE_FORBIDDEN",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage"
+        ]
     },
     {
         "error_code": 400,
         "api_description": "Bad Request: group chat was upgraded to a supergroup chat",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage"
+        ]
     },
     {
         "error_code": 400,
         "api_description": "Bad Request: chat not found",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage"
+        ]
     },
     {
         "error_code": 401,
@@ -63,7 +81,9 @@
         "error_code": 403,
         "api_description": "Forbidden: bot was blocked by the user",
         "description": "Bot was blocked by the user",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage"
+        ]
     },
     {
         "error_code": 403,
@@ -75,43 +95,49 @@
         "error_code": 403,
         "api_description": "Forbidden: bot was kicked from the supergroup chat",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage",
+            "exportChatInviteLink",
+            "getChatAdministrators"
+        ]
     },
     {
         "error_code": 403,
         "api_description": "Forbidden: MESSAGE_DELETE_FORBIDDEN",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "deleteMessage"
+        ]
     },
     {
         "error_code": 403,
         "api_description": "Forbidden: bot is not a member of the supergroup chat",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage"
+        ]
     },
     {
         "error_code": 403,
         "api_description": "Forbidden: bot is not a member of the channel chat",
         "description": "",
-        "methods": "unknown"
-    },
-    {
-        "error_code": 403,
-        "api_description": "Forbidden: bot was blocked by the user",
-        "description": "",
-        "methods": "unknown"
+        "methods": [
+            "deleteMessage"
+        ]
     },
     {
         "error_code": 403,
         "api_description": "Forbidden: bot was kicked from the group chat",
         "description": "",
-        "methods": "unknown"
+        "methods": [
+            "sendMessage"
+        ]
     },
     {
         "error_code": 429,
         "api_description": "Too Many Requests: retry after \\d+",
         "description": "",
-        "methods": "unknown"
+        "methods": "all"
     },
     {
         "error_code": "403",

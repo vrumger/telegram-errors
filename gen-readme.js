@@ -15,7 +15,7 @@ const table = errors
     .map(
         ({ error_code, api_description, description, methods }) =>
             `| ${error_code} | ${api_description} | ${description} | ${
-                Array.isArray(methods) ? methods.join(',') : methods
+                Array.isArray(methods) ? methods.join(', ') : methods
             } |`,
     )
     .join('\n');

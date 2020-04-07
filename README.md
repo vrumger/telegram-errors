@@ -14,7 +14,7 @@
 | 401 | Unauthorized | The bot token is incorrect | all |
 | 403 | Forbidden: bot was blocked by the user | Bot was blocked by the user | sendMessage |
 | 403 | Forbidden: user is deactivated | The specified user was deleted | unknown |
-| 403 | Forbidden: bot was kicked from the supergroup chat |  | sendMessage,exportChatInviteLink,getChatAdministrators |
+| 403 | Forbidden: bot was kicked from the supergroup chat |  | sendMessage, exportChatInviteLink, getChatAdministrators |
 | 403 | Forbidden: MESSAGE_DELETE_FORBIDDEN |  | deleteMessage |
 | 403 | Forbidden: bot is not a member of the supergroup chat |  | sendMessage |
 | 403 | Forbidden: bot is not a member of the channel chat |  | deleteMessage |
